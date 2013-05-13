@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mvc4samplemarco" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^I:\\WATK\\Labs\\ASPNETAzureWebSitesVS2012\\Source\\MVC4Sample\\MVC4Sample\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^I:\\WATK\\Labs\\ASPNETAzureWebSitesVS2012\\Source\\MVC4Sample\\MVC4Sample\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-MVC4Sample-20130512212713;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-MVC4Sample-20130512212713.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="I:\\WATK\\Labs\\ASPNETAzureWebSitesVS2012\\Source\\MVC4Sample\\MVC4Sample\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="PersonContext-Web.config Connection String" description="" value="Data Source=ssnb0gkhca.database.windows.net;Initial Catalog=MVC4SampleDB1;User ID=adminuser;Password=Rings1234" tags="">
+    <parameterEntry kind="XmlFile" scope="I:\\WATK\\Labs\\ASPNETAzureWebSitesVS2012\\Source\\MVC4Sample\\MVC4Sample\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext']/@connectionString" />
+  </parameter>
+</parameters>
